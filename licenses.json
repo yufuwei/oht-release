@@ -1,0 +1,5 @@
+{
+  "revoked_hwids": [],
+  "revoked_licenses": [],
+  "note": "被停用的设备机器码/授权码清单（改这里即停用，无需重编译）"
+}

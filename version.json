@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.2",
   "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
-  "sha256": "d286c9d80a504a6536a6565e95aa37ec29d1a82c7d3a5f6f5c7ace1e92cf2e33",
-  "changelog": "1.0.2: 版本号升级测试(验证OTA自动检测+一键更新链路); 基于1.0.1修复版(含OHTVERSION卡死修复)",
+  "sha256": "46e73109560793e557404d38722af894946b300a1eae9d4d0247b0bc3ea5e7d3",
+  "changelog": "1.0.2: 配置自动迁移(客户机旧jsDelivr@main/锁commit config 自动纠正为raw主地址,修复检测不到更新); 基于1.0.1修复版(含OHTVERSION卡死修复)",
   "min_version": "1.0.0"
 }

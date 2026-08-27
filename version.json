@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.1",
   "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
-  "sha256": "ac0a855fc7facd681fb8480befa758a59a576c5a796926f29f2f154055d55ce3",
-  "changelog": "1.0.1: STK标注随层+色7(自适应)+三视图基准线/尺寸修复; 到期提醒; OTA多通道稳定版(raw主+jsDelivr兜底,一次配置永久自动检测)",
+  "sha256": "81db8b4cc5df363a217c58101532afadb6a2f237b58b336dc04f2ae2e1af3126",
+  "changelog": "1.0.1: STK标注随层+色7; 三视图基准线/尺寸修复; 到期提醒; OTA多通道稳定版(raw主+jsDelivr兜底,一次配置永久自动检测); 新增一键自动更新(OHTVERSION检测→询问→下载SHA256→备份→替换)",
   "min_version": "1.0.0"
 }

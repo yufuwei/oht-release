@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.1",
   "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
-  "sha256": "be536a7c44977d82d270f1562dac8329da2641c0972eec6c9b8de66e5f44b2ae",
-  "changelog": "1.0.1: STK标注改为随层+索引色7(自适应)+三视图基准线/尺寸颜色修复; 含授权到期提醒; 修复OTA未配置(自动生成config.json锁commit)",
+  "sha256": "c0ec70afc5e3e833cf99cd83d26b0e32631675ed5b53c13b04a6088b8b1e8d0b",
+  "changelog": "1.0.1: STK标注随层+色7(自适应)+三视图基准线/尺寸修复; 含到期提醒; 修复OTA未配置(自动生成config锁commit)",
   "min_version": "1.0.0"
 }

@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.5",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@main/OHT.AutoStats.dll",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@f36f954187c88296809633f2e36123c5c4bbbc36/OHT.AutoStats.dll",
   "sha256": "89102e60b97eb0edb04e057a37b473e9139e0fed5aeb1aac6752bbb08605fa13",
-  "changelog": "1.0.5: CheckAsync 通道级快速重试(单次超时递减6s/3s/3s+间隔400ms), 消除 raw 秒级抖动导致的偶发漏报; 基于1.0.4(下载120s+jsDelivr快通道+重试)",
+  "changelog": "1.0.5: CheckAsync 通道级快速重试(单次超时6s/3s/3s+间隔400ms), 消除 raw 抖动偶发漏报; dll_url 改 jsDelivr 锁commit(防 @main 缓存滞后致 SHA256 校验失败)",
   "min_version": "1.0.0"
 }

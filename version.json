@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.4",
-  "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@main/OHT.AutoStats.dll",
   "sha256": "e733c4f8eaf749bcb49a99d7ab4d4f1c2e980ff374d8231b31681e09c44e3a0e",
-  "changelog": "1.0.4: 修复一键更新下载超时(下载专用HttpClient 120s超时+失败自动重试2次; 版本检测仍10s快速响应)",
+  "changelog": "1.0.4: 修复一键更新下载超时(下载专用HttpClient 120s超时+失败自动重试2次); 下载源切换jsDelivr CDN快通道(实测9.5s vs raw 2min), SHA256校验兜底防缓存旧",
   "min_version": "1.0.0"
 }

@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.6",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@bc51ccf419f06f842bb26dd8bb3edbd74dd5f591/OHT.AutoStats.dll",
-  "sha256": "1a6f4c089189e7bc5c01cc803488268ed2c24c193118daf95811a1d1b14529a2",
-  "changelog": "1.0.6: 全自动替换(后台 timer 检测 acad 退出后自动完成 .new->.dll 替换, 客户零操作, 仅需重启 CAD); 基于 1.0.5 通道重试+锁commit",
+  "latest_version": "1.0.7",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@cdc5da10dc68ae96b85974e86a4d60f6237f453d/OHT.AutoStats.dll",
+  "sha256": "844dea1ad5745954bba54492271eb48f5f7991f7f48eb4192ac4cbd0cc7e3933",
+  "changelog": "1.0.7: 发版手册六步演练(版本号→编译→打包→传GitHub→锁commit→验证); 含1.0.6全自动替换(客户零操作)+1.0.5通道重试",
   "min_version": "1.0.0"
 }

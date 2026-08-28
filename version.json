@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.7",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@cdc5da10dc68ae96b85974e86a4d60f6237f453d/OHT.AutoStats.dll",
-  "sha256": "844dea1ad5745954bba54492271eb48f5f7991f7f48eb4192ac4cbd0cc7e3933",
-  "changelog": "1.0.7: 发版手册六步演练(版本号→编译→打包→传GitHub→锁commit→验证); 含1.0.6全自动替换(客户零操作)+1.0.5通道重试",
+  "latest_version": "1.0.8",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@cb2c5657521ece880285f2b417decf6af6bddf2c/OHT.AutoStats.dll",
+  "sha256": "d3cfca8116ef5c98b952cbb94ba88d1c4a79196af100227df55d2a41f99e7085",
+  "changelog": "1.0.8: 兜底检测通道改 GitHub API(实时不缓存, 替代 jsDelivr@main 各节点缓存版本不一致导致检测结果飘忽); 含1.0.7+1.0.6全自动替换+1.0.5通道重试",
   "min_version": "1.0.0"
 }

@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.3",
+  "latest_version": "1.0.4",
   "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
-  "sha256": "ee4f0445d9d71fadc43f32082c24dbe8895ee4a0d9d017f5f96b91f63430e829",
-  "changelog": "1.0.3: OTA一键升级链路客户端测试版; 基于1.0.2(配置自动迁移+OHTVERSION卡死修复+多通道稳定检测)",
+  "sha256": "e733c4f8eaf749bcb49a99d7ab4d4f1c2e980ff374d8231b31681e09c44e3a0e",
+  "changelog": "1.0.4: 修复一键更新下载超时(下载专用HttpClient 120s超时+失败自动重试2次; 版本检测仍10s快速响应)",
   "min_version": "1.0.0"
 }

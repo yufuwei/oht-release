@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.5",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@f36f954187c88296809633f2e36123c5c4bbbc36/OHT.AutoStats.dll",
-  "sha256": "89102e60b97eb0edb04e057a37b473e9139e0fed5aeb1aac6752bbb08605fa13",
-  "changelog": "1.0.5: CheckAsync 通道级快速重试(单次超时6s/3s/3s+间隔400ms), 消除 raw 抖动偶发漏报; dll_url 改 jsDelivr 锁commit(防 @main 缓存滞后致 SHA256 校验失败)",
+  "latest_version": "1.0.6",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@bc51ccf419f06f842bb26dd8bb3edbd74dd5f591/OHT.AutoStats.dll",
+  "sha256": "1a6f4c089189e7bc5c01cc803488268ed2c24c193118daf95811a1d1b14529a2",
+  "changelog": "1.0.6: 全自动替换(后台 timer 检测 acad 退出后自动完成 .new->.dll 替换, 客户零操作, 仅需重启 CAD); 基于 1.0.5 通道重试+锁commit",
   "min_version": "1.0.0"
 }

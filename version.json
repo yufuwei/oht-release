@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.11",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@eaf624a22a2541f8ae982e5449ff367aba29ef1d/OHT.AutoStats.dll",
-  "sha256": "77327c7bf28375b2374513f3817fcce8421b508805ed47a3e59b24160bfdb67d",
-  "changelog": "1.0.11 修复1.0.10 fatal crash: 删ReorderSpecTableAttDefs(Erase+AppendEntity触发eNotOpenForWrite); 改为按values list顺序AppendAttribute使ATTREF顺序=FieldOrder;PORT类字段仍留空",
+  "latest_version": "1.0.12",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@d0eda6655dc035ec96ced0add786e90508192928/OHT.AutoStats.dll",
+  "sha256": "c386fc233fc0cfb4b3e13fdf4db12316005daf1a4e3e56282398d01a98f06f05",
+  "changelog": "1.0.12 STK属性表 ATTDEF 改名对齐图表: STORAGE→SHELF, REMARK.1→POWER, REMARK.2→PURGE (EnsureBlocks后改ATTDEF.Tag); OHTDIAG新增 Lines按BlockName分布输出(诊断断点/重复倍增/坐标偏移根因)",
   "min_version": "1.0.0"
 }

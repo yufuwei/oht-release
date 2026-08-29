@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.10",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@7b3d72a94946fd0ab857e8a7d0750bb123acfc24/OHT.AutoStats.dll",
-  "sha256": "1cb79868c3c6e49ce15ee9bb43e5ff42417abcd542412c0f02df3b22f0e04358",
-  "changelog": "1.0.10 STK属性表重排: ①PORT类字段(OHT_IN/OUT/HTCP_IN/OUT/MNL_IN/OUT/PORT_TOTAL)留空,表头EA已带 ②Spec.Table 20个ATTDEF按视觉阅读顺序(STK_REF_属性表梳理.md §二)重排 BTR 顺序 → CAD属性面板字段顺序由C#控制,不再依赖嵌入DWG",
+  "latest_version": "1.0.11",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@eaf624a22a2541f8ae982e5449ff367aba29ef1d/OHT.AutoStats.dll",
+  "sha256": "77327c7bf28375b2374513f3817fcce8421b508805ed47a3e59b24160bfdb67d",
+  "changelog": "1.0.11 修复1.0.10 fatal crash: 删ReorderSpecTableAttDefs(Erase+AppendEntity触发eNotOpenForWrite); 改为按values list顺序AppendAttribute使ATTREF顺序=FieldOrder;PORT类字段仍留空",
   "min_version": "1.0.0"
 }

@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.8",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@cb2c5657521ece880285f2b417decf6af6bddf2c/OHT.AutoStats.dll",
-  "sha256": "d3cfca8116ef5c98b952cbb94ba88d1c4a79196af100227df55d2a41f99e7085",
-  "changelog": "1.0.8: 兜底检测通道改 GitHub API(实时不缓存, 替代 jsDelivr@main 各节点缓存版本不一致导致检测结果飘忽); 含1.0.7+1.0.6全自动替换+1.0.5通道重试",
+  "latest_version": "1.0.9",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@cfe7460aa8815df4d2bef0ec7bcc0caaac0416e6/OHT.AutoStats.dll",
+  "sha256": "6f9ea9232ef01b23bdd58dc617286a1f16fd26eb74a524c5b982bb4de4d87bcf",
+  "changelog": "1.0.9 几何检测全面修复: ①断点改用纯中心线端点连通性(不再依赖黄色几何, 位置精确+真断点不再漏报) ②新增未连接段检测(孤立直轨可检出) ③定位修 UCS 坐标系+图纸空间提示 ④重复检测: 平行归一化/去掉0.85硬阈值/新增弧重叠/共线容差可配置 ⑤重复标记改沿轨道色带(斜线贴合) ⑥网格 Floor 取整 ⑦黄色弧参与节点构建",
   "min_version": "1.0.0"
 }

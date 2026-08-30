@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.12",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@d0eda6655dc035ec96ced0add786e90508192928/OHT.AutoStats.dll",
-  "sha256": "c386fc233fc0cfb4b3e13fdf4db12316005daf1a4e3e56282398d01a98f06f05",
-  "changelog": "1.0.12 STK属性表 ATTDEF 改名对齐图表: STORAGE→SHELF, REMARK.1→POWER, REMARK.2→PURGE (EnsureBlocks后改ATTDEF.Tag); OHTDIAG新增 Lines按BlockName分布输出(诊断断点/重复倍增/坐标偏移根因)",
+  "latest_version": "1.0.23",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@8ce76fab026075ded1126e4d9d254118c3680145/OHT.AutoStats.dll",
+  "sha256": "50e2b885e1d2ab3561b26b9a0b6086049a54eb8d79e3827a53708e4847ec3b38",
+  "changelog": "1.0.23: ①断点/重复标记清理修复——每次双击只留一个OHT_MARK(按图层兜底清全部残留) ②STK参数化图层名统一加NSYNU_STK前缀(3.NSYNU_STK_FOUP/DIM/BASE/TRIM/BASELINE)",
   "min_version": "1.0.0"
 }

@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.48",
-  "dll_url": "https://raw.githubusercontent.com/yufuwei/oht-release/main/OHT.AutoStats.dll",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@3fc7f61711334bda87a56bbf9845554854190e24/OHT.AutoStats.dll",
   "sha256": "02b728133a12ad3727aa834415a628a7242f96bb255b0300eb72f282fb099db7",
-  "changelog": "1.0.48: ①STK三视图新增正视2(OP视图)+正视1标HP视图(面板可开关) ②侧视图扣条外廓最外蓝/内侧白 ③断点=0修复(黄色几何==边界线统一,NodeBuilder复用BoundaryLines) ④直轨整数检查改高亮线标记 ⑤AP精度标签+STK长度标注顶部+按钮文字修复",
+  "changelog": "1.0.48: ①STK三视图新增正视2(OP视图)+正视1标HP视图(面板可开关) ②侧视图扣条外廓最外蓝/内侧白 ③断点=0修复(黄色几何==边界线统一) ④直轨整数检查改高亮线标记 ⑤AP精度标签+STK长度标注顶部+按钮文字修复",
   "min_version": "1.0.0"
 }

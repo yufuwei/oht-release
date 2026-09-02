@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.0.49",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@1d22cf15a25677aaf1813f345fb4f886f63a48dd/OHT.AutoStats.dll",
-  "sha256": "00b12539da404b2bce905b766b9a44881f2448826025800d67dc34737386a9e9",
-  "changelog": "1.0.49: OTA下载改为流式+命令行百分比进度(下载时实时显示NN%,不再无提示卡死) + 下载失败更友好提示。上一版1.0.48: ①STK三视图新增正视2(OP视图)+正视1标HP视图(面板可开关) ②侧视图扣条外廓最外蓝/内侧白 ③断点=0修复 ④直轨整数检查高亮线",
+  "latest_version": "1.0.50",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@dcc4a5812e12a14610093e25021a845d63aa9d9e/OHT.AutoStats.dll",
+  "sha256": "85bf752278d2be9ae8de2c8c3f9c9e967575e29fb67e528519aa9653a2ac1b58",
+  "changelog": "1.0.50: 修复OTA下载后关闭CAD未自动更新——改用独立update.bat自替换(不依赖acad进程内timer,关CAD后bat等acad退出再替换.new→.dll)。1.0.49加了下载百分比进度;1.0.48含STK正视2/扣条外廓颜色/断点修复等",
   "min_version": "1.0.0"
 }

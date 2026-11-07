@@ -1,7 +1,8 @@
 {
-  "latest_version": "1.0.50",
-  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@dcc4a5812e12a14610093e25021a845d63aa9d9e/OHT.AutoStats.dll",
-  "sha256": "85bf752278d2be9ae8de2c8c3f9c9e967575e29fb67e528519aa9653a2ac1b58",
-  "changelog": "1.0.50: 修复OTA下载后关闭CAD未自动更新——改用独立update.bat自替换(不依赖acad进程内timer,关CAD后bat等acad退出再替换.new→.dll)。1.0.49加了下载百分比进度;1.0.48含STK正视2/扣条外廓颜色/断点修复等",
-  "min_version": "1.0.0"
+  "latest_version": "1.0.51",
+  "dll_url": "https://cdn.jsdelivr.net/gh/yufuwei/oht-release@df8723a9b0ef15da48067482f897333646e0d5af/OHT.AutoStats.dll",
+  "sha256": "dfcaefc29177a66922c1ba726109958489c382ad92dc38fb1a858b5e8eec7efa",
+  "changelog": "1.0.51: 统计正确性修复(散置补线采集/STB站点数口径/断点死端漏报/直轨口径/方向分配/共享块多实例漏采)+授权安全强化(HWID绑定核对/服务端密钥ACL与限流)+Excel补断点/重复/轨道段表+MD导出修复+STK载具参数同步与越界告警+面板跨文档守卫与预处理后台化",
+  "min_version": "1.0.0",
+  "signature": "irJl-jY_B5RLMUhmfgJM9RItKJZ25FFUEFwq3-jIxkfrge2cMOyKr6aYW8huKopa0Trl1seXnrIIU3p2OoBEYYp2g8scWXk7eP0oWlqbVrO5uQ7sIE15Pf5K7JROshmyPw8dAVTBLTNnqxe-eDkMonLafX0yasEPohp8lEA_TaZc-N5hkHQnuEyJbZE_0dvDVa4hzgO5YTWW06tdz3DWVZXLx1uqNNraNTx6aA2NHOejs2kTdsna-piGRk-5otRNkwaN_MN1P-UsP_LKHNU4UPTuDHCxpZuW3b6AEPHRkrn4eEnBF-Y3uqma3sD66u60ZOpqUDhSxTkLi5RP5lAZfg"
 }
